@@ -8,10 +8,11 @@ body{
 .first-section{
 height:300px ;
 margin: auto;
-width: 90vw;
+width: 92vw;
+
 
 }
-#first-img{
+.first-img{
     width: 100%;
     height: 100%;
 }
@@ -20,12 +21,18 @@ width: 90vw;
 
 .section-2{
     height:300px ;
-    width:90vw ;
+    width:92vw ;
     margin: auto;
     margin-top: 1vw;
     margin-bottom: 1vw;
     display: flex;
     gap: 1vw;
+    
+
+}
+.first-div{
+    height: 300px;
+    width: 30vw;
 }
 .imgdiv-2{
     height: 143px;
@@ -41,16 +48,26 @@ width: 90vw;
 
 .section-3{
     height:300px ;
-    width:90vw ;
+    width:92vw ;
     margin: auto;
     display: flex;
     gap: 1vw; 
-    border: 2px solid black;
+    
 }
 .imgdiv-4{
     display: grid;
-    grid-template-columns:auto auto;
-    background-color: brown;
-    gap: 0;
-    border: 2px solid rosybrown;
+    grid-template-columns:repeat(2,1fr);
+    height: 300px;
+    width: 30vw;
+    column-gap: .5vw;
+    row-gap:.2vw ;
+}
+.last-img{
+    height: 146.5px;
+    width: 100%;
+}
+.last-1-img{
+    height: 146.5px;
+    width: 100%;
+    margin-top: 0;
 }
