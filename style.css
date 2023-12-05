@@ -52,11 +52,5 @@ width: 90vw;
     grid-template-columns:auto auto;
     background-color: brown;
     gap: 0;
-}
-#last-img{
-    height: 150px;
-    width:15vw;
-    gap: 0;
-    margin: 0;
-
+    border: 2px solid rosybrown;
 }
